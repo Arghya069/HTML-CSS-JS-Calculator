@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+legend{
+    padding-top: 40px;
+    margin-bottom: 0;
+    color: aliceblue;
+    font-size: 50px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+.col{
+    margin: 0 7px;
+    padding: 45px;
+    font-family: 'Lucida Sans';
+    border: 3px solid black;
+    background-color: aquamarine;
+    font-size: large;
+    border-radius: 8px;
+}
+#trump{
+        padding: 45px 110px;
+}
+
+#toy{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans Unicode';
+}
+.input-row{
+    height: 69px;
+    width: 469px;
+    font-size: 60px;
+    margin: 20px;
+    padding: 20px 0;
+    border: 3px solid black;
+    border-radius: 8px;
+}
